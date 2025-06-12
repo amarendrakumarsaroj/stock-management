@@ -7,6 +7,6 @@ RUN docker-php-ext-install mysqli
 RUN a2enmod rewrite
 
 # Copy our code (already done via volume mount but useful for production build)
-# COPY . /var/www/html
+ COPY . /var/www/html
 
 EXPOSE 80
