@@ -27,7 +27,7 @@
               data-bs-toggle="modal" data-bs-target="#editModal">
               Edit
             </button>
-            <a href="?delete=<?= $row['id'] ?>" class="btn btn-danger btn-sm">Soft Delete</a>
+            <a href="?delete=<?= $row['id'] ?>" class="btn btn-danger btn-sm">Delete</a>
           <?php else: ?>
             <span class="text-muted">Deleted</span>
           <?php endif; ?>

@@ -31,7 +31,7 @@
       <svg xmlns="http://www.w3.org/2000/svg" fill="white" class="bi bi-box-seam-fill" viewBox="0 0 16 16">
         <path d="M9.828.122a1 1 0 0 1 .715.09l4.5 2.25a1 1 0 0 1 .54.878v8.5a1 1 0 0 1-.54.878l-4.5 2.25a1 1 0 0 1-.715.09l-4.5-1.5a1 1 0 0 1-.328-.18l-4-3a1 1 0 0 1-.328-.752v-6a1 1 0 0 1 .328-.752l4-3a1 1 0 0 1 .328-.18l4.5-1.5zM2 5.122V10.5l3.5 2.625V7.747L2 5.122zm5.5 2.625v5.378l3.5-2.625V5.122L7.5 7.747zm7-2.625L10 7.747v5.378l3.5-2.625V5.122z"/>
       </svg>
-      <span class="fw-bold">StockMgmt</span>
+      <span class="fw-bold">STOCK MANAGEMENT</span>                                                                                                                                                                                 
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">

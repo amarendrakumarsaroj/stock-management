@@ -2,6 +2,12 @@
   <div class="position-sticky">
     <ul class="nav flex-column">
       <li class="nav-item">
+        <a class="nav-link <?php if($page == 'goldsilverrate') echo 'active'; ?>" href="goldsilverrate.php">
+          Gold & Silver Rate Management
+        </a>
+      </li>
+
+      <li class="nav-item">
         <a class="nav-link <?php if($page == 'users') echo 'active'; ?>" href="admin.php">
           User Management
         </a>
