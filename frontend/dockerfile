@@ -1,0 +1,12 @@
+FROM php:8.2-apache
+
+# Install mysqli extension for MySQL support
+RUN docker-php-ext-install mysqli
+
+# Enable apache mod_rewrite (optional, useful for routing later)
+RUN a2enmod rewrite
+
+# Copy our code (already done via volume mount but useful for production build)
+# COPY . /var/www/html
+
+EXPOSE 80
